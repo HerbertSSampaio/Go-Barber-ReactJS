@@ -32,6 +32,8 @@
         "camelcase": "off",
         "@typescript-eslint/ban-types": "off",
         "prettier/prettier": "error",
+        "no-use-before-define": "off",
+        "@typescript-eslint/no-use-before-define": ["error"],
         "import/extensions": [
             "error",
             "ignorePackages",
