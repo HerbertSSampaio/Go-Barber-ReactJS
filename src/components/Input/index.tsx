@@ -1,15 +1,20 @@
 import React, { InputHTMLAttributes } from 'react';
-import { Interface } from 'readline';
-import Container from './styles';
+import { IconBaseProps } from 'react-icons';
+
+import { Container } from './styles';
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
-    name: String;
+  name: string;
+  icon?: React.ComponentType<IconBaseProps>;
 }
 
-const Input: FC.React<InputProps> = (props) => (
-  <Container>
-    <input {...props } />
-  </Container>
-);
+const Input: React.FC<InputProps> = ({ icon: Icon, ...rest }) => {
+  return (
+    <Container>
+      {Icon && <Icon size={20} />}
+      <input {...rest} type="text" />
+    </Container>
+  );
+};
 
 export default Input;
