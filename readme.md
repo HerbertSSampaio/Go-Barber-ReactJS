@@ -19,6 +19,7 @@
 
 - <p style="color: red;">GoBarber Web is an application that allows registered hairdressers to view their next appointments and change their profile.</p>
 
+To see the **layout**, click here: [GoBarber Web Layout](https://www.figma.com/file/BXCihtXXh9p37lGsENV614/GoBarber?node-id=34%3A1180)</br>
 To see the **api**, click here: [GoBarber Rest API](https://github.com/HerbertSousa/Gobarber-Backend)</br>
 To see the **mobile client**, click here: [GoBarber Mobile](https://github.com/HerbertSousa/Go-Barber-ReactNative)
 
